@@ -4,7 +4,7 @@ body{
 }
 .post{
     background-color: white;
-    width: 29%;
+    width: 26%;
     margin: auto;
     margin-top: 4%;
 }
@@ -21,17 +21,17 @@ body{
 }
 .letter{
     font-family: 'Roboto', sans-serif;
-    font-size: 13px;
+    font-size: 0.8rem;
     margin-left: 8%;
 }
 .menu{
-    font-size: 1.8rem;
+    font-size: 1.9rem;
     margin-right: 0.8rem;
     padding-top: 2.5%;
 }
 img{
     width: 100%;
-    height: 19rem;
+   
     margin-top: 2.8%;
 }
 .iconPost{
@@ -45,11 +45,27 @@ img{
     
 }
 .text{
-    font-size: 13px;
+    font-size: 0.8rem;
     font-family: 'Roboto', sans-serif;
     padding-top: 1%;
     padding-bottom: 2%;
     padding-left: 3%;
     padding-right: 3%;
     text-align: justify;
+}
+@media (max-width: 950px){
+    .letter, .text{
+        font-size: 0.7rem;
+    }
+    .icon{
+        font-size: 1.2rem;
+        padding-top: 15%;
+    }
+    .menu{
+        font-size: 1.6rem;
+    }
+    .iconPost{
+        font-size: 1.3rem;
+    }
+
 }
